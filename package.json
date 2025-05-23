@@ -1,0 +1,24 @@
+{
+  "name": "trabalhofinalprogautotestes",
+  "version": "1.0.0",
+  "description": "Trabalho final da disciplina de automação de testes",
+  "main": "testes.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlesbdl/TrabalhoFinalProgAutoTestes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlesbdl/TrabalhoFinalProgAutoTestes/issues"
+  },
+  "homepage": "https://github.com/charlesbdl/TrabalhoFinalProgAutoTestes#readme",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.5.0"
+  }
+}
