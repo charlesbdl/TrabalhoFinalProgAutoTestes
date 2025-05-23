@@ -30,15 +30,13 @@ export function calcularConsumoDeRacao(nome, idade, peso) {
 }
 
 /**
- * Decide o tipo de atividade baseado no porte
- * @param {string} porte - Porte do pet (pequeno, médio, grande)
+ * Decide o tipo de atividade baseado no porte pequeno
+ * @param {string} porte -  somente pequeno, pois é o único implementado
  * @returns {string} Atividade recomendada
  */
 export function decidirTipoDeAtividadePorPorte(porte) {
   const atividades = {
     pequeno: 'brincar dentro de casa',
-    médio: 'passear no parque',
-    grande: 'correr no quintal'
   };
   return atividades[porte.toLowerCase()] || 'atividade não especificada';
 }
