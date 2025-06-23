@@ -20,4 +20,5 @@ jobs:
             - run: npm install
             - run: npx mocha testes/trabalho-final.js
 
-# os testes serão executados automaticamente a cada push ou pull request na branch `main`
+# os testes serão executados automaticamente a cada push ou pull request na branch `main` , que 
+# é a branch principal do repositório.
