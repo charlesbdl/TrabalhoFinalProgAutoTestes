@@ -1,5 +1,5 @@
 
-name: execucao CI
+name: Automated Execution CI
 
 on:
     push:
