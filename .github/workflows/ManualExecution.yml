@@ -1,14 +1,10 @@
-name: CI
+name: Manual Execution CI
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-  workflow_dispatch:  # Permite execução manual
+  workflow_dispatch:  # Só executa manualmente
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     steps:
